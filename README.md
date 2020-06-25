@@ -21,7 +21,8 @@
         - recall.py                      ：icf、ucf等召回
         - model.py                       ：lgbm排序模型
         - metric.py                      ：召回结果评价
-        - main_V2.ipynb                  ：主函数
+        - main_V1.ipynb                  ：主函数V1版本，最后B榜最高得分
+        - main_V2.ipynb                  ：主函数V2版本
 
 
 - data
