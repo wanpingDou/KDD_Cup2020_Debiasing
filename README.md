@@ -16,21 +16,32 @@
 # 目录
 
 - code
+
 	- txt_img_cosine_similarity.ipynb：计算underexpose_train/underexpose_item_feat.csv中给出的文本和图像的item间的余弦相似度，排序模型中特征备用
+
         - process.py                     ：数据加载，数据处理，数据embedding，数据内存优化,item聚类以及user聚类,增加session划分,用户/项目/交互特征生成
+
         - recall.py                      ：icf、ucf等召回
+
         - model.py                       ：lgbm排序模型
+
         - metric.py                      ：召回结果评价
+
         - main_V1.ipynb                  ：主函数V1版本，最后B榜最高得分
+
         - main_V2.ipynb                  ：主函数V2版本
 
 
 - data
+
         - process                        ：过程数据存储
+
         - underexpose_test               ：官方test数据
+
         - underexpose_train              ：官方train数据
 
 - result
+
         - submit_traceb_v1.csv           ：提交数据存储 
 
 
