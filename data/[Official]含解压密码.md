@@ -32,6 +32,7 @@ Note that the final leaderboard will take only phase T=7,8,9 into account when d
 
 Password Filename:
 
+```json
 7c2d2b8a636cbd790ff12a007907b2ba underexpose_train_click-1
 ea0ec486b76ae41ed836a8059726aa85 underexpose_train_click-2
 65255c3677a40bf4d341b0c739ad6dff underexpose_train_click-3
@@ -51,6 +52,9 @@ dee22d5e4a7b1e3c409ea0719aa0a715 underexpose_test_click-6
 69416eedf810b56f8a01439e2061e26d underexpose_test_click-7
 55588c1cddab2fa5c63abe5c4bf020e5 underexpose_test_click-8
 caacb2c58d01757f018d6b9fee0c8095 underexpose_test_click-9
+```
+
+
 
 ## [Must Read!] Official Script for Evaluation
 
