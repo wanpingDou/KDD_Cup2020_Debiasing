@@ -8,37 +8,45 @@
 - 内存优化
 - 多进程加速
 
-
 # 过程
+
+- 找到data文件夹下`debiasing_data_20200401.csv`，点击链接并下载数据。并在同一路径下找到`[Official]含解压密码.md `文件，打开并找到对应的密码解压数据。
 - 本次比赛用户点击重复少，用户点击项目少，空间扩得比较散，用双塔DSSM、word2vec以及glove等召回效果比较差
+
 - 主要采用itemCF召回，lightgbm排序 
 
 # 目录
 
 - code
 
-	- txt_img_cosine_similarity.ipynb：计算underexpose_train/underexpose_item_feat.csv中给出的文本和图像的item间的余弦相似度，排序模型中特征备用
-
-        - process.py                     ：数据加载，数据处理，数据embedding，数据内存优化,item聚类以及user聚类,增加session划分,用户/项目/交互特征生成
-
-        - recall.py                      ：icf、ucf等召回
-
-        - model.py                       ：lgbm排序模型
-
-        - metric.py                      ：召回结果评价
-
-        - main_V1.ipynb                  ：主函数V1版本，最后B榜最高得分
-
-        - main_V2.ipynb                  ：主函数V2版本
+  ```
+  - txt_img_cosine_similarity.ipynb：计算underexpose_train/underexpose_item_feat.csv中给出的文本和图像的item间的余弦相似度，排序模型中特征备用
+  
+  - process.py                     ：数据加载，数据处理，数据embedding，数据内存优化,item聚类以及user聚类,增加session划分,用户/项目/交互特征生成
+  
+  - recall.py                      ：icf、ucf等召回
+  
+  - model.py                       ：lgbm排序模型
+  
+  - metric.py                      ：召回结果评价
+  
+  - main_V1.ipynb                  ：主函数V1版本，最后B榜最高得分
+  
+  - main_V2.ipynb                  ：主函数V2版本
+  ```
 
 
 - data
 
         - process                        ：过程数据存储
-
+        
         - underexpose_test               ：官方test数据
-
+        
         - underexpose_train              ：官方train数据
+                 
+        - debiasing_data_20200401.csv    ：官方下载数据链接
+        
+        - [Official]含解压密码.md          ：官方数据解压密码
 
 - result
 
